@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARECADE SMP STORE</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#081423;color:#fff;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:20px}
+.container{text-align:center;max-width:420px;width:100%}
+.logo{width:180px;filter:drop-shadow(0 0 18px #4ea3ff);margin-bottom:15px}
+h1{font-size:38px}
+.server{margin:10px 0 30px;color:#67c7ff;cursor:pointer;font-weight:bold}
+.card{background:#10233b;border-radius:18px;padding:25px;box-shadow:0 0 20px rgba(78,163,255,.35)}
+.rank{font-size:34px;color:#5db8ff;font-weight:bold}
+.price{font-size:28px;margin:15px 0}
+ul{list-style:none;text-align:left;margin:20px 0}
+li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.buy{width:100%;padding:14px;background:#1f8fff;border:none;border-radius:10px;color:#fff;font-size:18px;font-weight:bold;cursor:pointer}
+.buy:hover{background:#006eff}
+.footer{margin-top:25px;color:#8cb8d9;font-size:13px}
+</style>
+</head>
+<body>
+<div class="container">
+<img src="logo.png" class="logo" alt="Logo">
+<h1>ARECADE SMP STORE</h1>
+<div class="server" onclick="copyIP()">📡 arecadesmp.playwithbao.com</div>
+
+<div class="card">
+<div class="rank">ARECADE+</div>
+<div class="price">Rp5.000 / Month</div>
+<ul>
+<li>✔ Exclusive Prefix</li>
+<li>✔ Home maks 5</li>
+<li>✔ 5M Money + 5K Shards</li>
+<li>✔ Monthly Rank</li>
+<li>✔ And more!</li>
+</ul>
+
+<button class="buy" onclick="window.open('YOUR_GOOGLE_FORM_LINK','_blank')">BUY NOW</button>
+</div>
+
+<div class="footer">© 2026 ARECADE SMP</div>
+</div>
+
+<script>
+function copyIP(){
+navigator.clipboard.writeText("arecadesmp.playwithbao.com");
+const el=document.querySelector(".server");
+el.innerHTML="✔ IP Copied!";
+setTimeout(()=>{el.innerHTML="📡 arecadesmp.playwithbao.com";},2000);
+}
+</script>
+</body>
+</html>
