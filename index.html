@@ -1,23 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arcade Hardcore Store</title>
-</head>
-<body style="background:#111;color:white;text-align:center;font-family:Arial;padding-top:100px;">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARECADE SMP STORE</title>
 
-<h1>ARECADE HARDCORE</h1>
+<style>
+body{
+    margin:0;
+    background:#111;
+    color:white;
+    font-family:Arial,Helvetica,sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:#1b1b1b;
+    width:340px;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 0 25px red;
+}
+
+h1{
+    color:#ff2b2b;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    font-size:18px;
+    font-weight:bold;
+    border:none;
+    border-radius:10px;
+    background:#ff0000;
+    color:white;
+    cursor:pointer;
+    transition:.2s;
+}
+
+button:hover{
+    background:#cc0000;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+<h1>ARECADE SMP STORE</h1>
 
 <h2>ARECADE+</h2>
 
 <h3>Rp5.000 / Month</h3>
 
-<p>Support the server and unlock exclusive perks!</p>
+<p>Support the server and unlock exclusive perks.</p>
 
-<button style="padding:15px 35px;background:red;color:white;border:none;border-radius:10px;font-size:18px;">
-BUY NOW
-</button>
+<button onclick="buyRank()">BUY NOW</button>
+
+</div>
+
+<script>
+function buyRank(){
+    window.open("https://forms.gle/ISI_LINK_GOOGLE_FORM_KAMU","_blank");
+}
+</script>
 
 </body>
 </html>
