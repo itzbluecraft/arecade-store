@@ -1,1 +1,0 @@
-function copyIP(){navigator.clipboard.writeText(document.getElementById('ip').textContent).then(()=>alert('IP berhasil disalin!'))}function buy(r,p){location=`buy.html?rank=${encodeURIComponent(r)}&price=${p}`}
